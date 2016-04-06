@@ -2,6 +2,7 @@
 ## LAElectionResults.py
 ###Description
 I was waiting for Election results from the local media on election night a while back, and was amazed at how slow the media was to get the returns from the Louisiana SoS website.  So, I wrote a utility to monitor the Secretary of State RSS feed(s) for certain state-wide races while I was sitting on the couch.
+
 Requirement:  Install BeautifulSoup (pip install BeautifulSoup)
 ###Usage
 ```$python LAElectionResults.py -url=http://lasos.blob.core.windows.net/graphical-prod/rss/02212015_RSS.xml```
